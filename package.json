@@ -1,0 +1,48 @@
+{
+  "name": "@dongdev/scraper",
+  "version": "0.0.1",
+  "description": "Simple API, scraping cross platform downloader by DongDev",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/",
+    "lint": "eslint src/",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "scraping",
+    "facebook",
+    "tiktok",
+    "instagram",
+    "downloader"
+  ],
+  "author": "DongDev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DongDev-VN/scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DongDev-VN/scraper/issues"
+  },
+  "homepage": "https://github.com/DongDev-VN/scraper#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "canvas": "^2.11.2",
+    "cheerio": "^1.0.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "eslint": "^7.32.0",
+    "mocha": "^9.0.0",
+    "webpack": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ]
+}
